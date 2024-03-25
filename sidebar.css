@@ -1,0 +1,44 @@
+.side{
+    background-color: rgb(24, 23, 23);
+    position: fixed;
+    top:55px;
+    left:0;
+    bottom:0;
+    width:80px;
+    border-right: 1px solid rgb(247, 9, 9);
+    box-shadow: 2px 2px 4px rgb(254, 2, 2);
+    z-index:200;
+
+}
+.barone{
+    height:76px;
+    display: flex;
+    justify-content: center;
+}
+.home{
+    width:30px;
+    height:30px;
+    padding-top: 40px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.home:hover{
+    background-color: rgb(24, 23, 23);
+    padding: 20px 20px 20px 20px;
+}
+
+.word{
+    font-family: arial;
+    font-style: italic;
+    font-weight: bold;
+    color:white;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.word:hover{
+    background-color:(24, 23, 23);
+}

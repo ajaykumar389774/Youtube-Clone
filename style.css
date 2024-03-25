@@ -1,0 +1,72 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+
+
+.img1{
+    width:410px;
+    height:250px;
+    vertical-align:bottom;
+    border-radius: 20px;
+    position: relative;
+
+}
+.time{
+    font-family: arial;
+    font-size: 15px;
+    background-color: black;
+    opacity: 70%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: white;
+    border-radius: 8px;
+    position: absolute;
+    top:170px;
+    right:110px;
+    
+
+}
+.first{
+     font-family: arial;
+     width:400px;
+     line-height:22px;
+     font-weight: bold;
+     font-size:15px;
+     position: relative;
+     bottom: 11px;
+     margin-bottom: 0;
+     color: white;
+     
+}
+.second{
+    font-family: Arial;
+    font-size: 15px;
+    line-height:1px;
+    color: grey;
+    margin-top: 8px;
+}
+.third{
+    font-family: arial;
+    color: grey;
+}
+
+.logo1{
+    width:40px;
+    border-radius: 30px;
+
+}
+.thumbnail{
+    margin-bottom: 12px;
+    position: relative;
+}
+.channelinfo{
+    display: grid;
+    grid-template-columns: 50px 1fr ;
+
+}
